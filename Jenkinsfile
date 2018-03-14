@@ -9,7 +9,7 @@ pipeline {
         stage('Build Oracle Docker Images') {
             steps {
                 // build the image
-                sh 'sudo ./buildDockerImage.sh  -v 12.2.0.1.0
+                sh 'sudo ./buildDockerImage.sh  -v 12.2.0.1.0'
             }
         }
     }
